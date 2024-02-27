@@ -16,7 +16,6 @@ impl Phasor {
             phase_increment 
         }
     }
-    // for later use.
     pub fn set_phase_increment(&mut self, phase_increment: f32) {
         self.phase_increment = phase_increment;
     }

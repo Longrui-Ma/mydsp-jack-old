@@ -22,6 +22,9 @@ impl Echo{
             in_app,
         }
     }
+    pub fn set_delay(&mut self, nframes_delay: usize){
+        self.nframes_delay = nframes_delay;
+    }
 }
 
 impl AppTrait for Echo {

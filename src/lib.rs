@@ -36,6 +36,11 @@ pub mod noise;
 pub mod smooth;
 pub mod one_zero;
 pub mod distortion;
+pub mod am;
+pub mod fm;
+pub mod flanger;
+pub mod ks;
+pub mod dummy;
 
 pub fn get_type<T>(_: &T) -> &'static str {
     std::any::type_name::<T>()
